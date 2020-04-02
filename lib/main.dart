@@ -19,7 +19,7 @@ void main() {
                 [])
           ]));
 
-  runApp(new FlutterReduxApp(
+  runApp(FlutterReduxApp(
     title: 'Flutter Redux Demo',
     store: store,
   ));
