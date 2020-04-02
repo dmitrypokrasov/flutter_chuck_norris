@@ -6,9 +6,5 @@ class ChuckStore {
 
   ChuckStore(this.fact, this.facts);
 
-  ChuckStore clone() {
-    return ChuckStore(null, null)
-      ..fact = fact
-      ..facts = facts;
-  }
+  ChuckStore clone() => ChuckStore(fact, facts);
 }
